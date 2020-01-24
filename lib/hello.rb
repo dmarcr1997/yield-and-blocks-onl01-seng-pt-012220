@@ -8,10 +8,10 @@ end
 
 # call your method here!
 
+["Tim", "Tom", "Jim"]
 
 hello_t(["Tim", "Tom", "Jim"]) do |name|
-  nam = name
-  if nam.start_with?("T")
+  if name.start_with?("T")
     puts "Hi, #{nam}"
   end
 end
